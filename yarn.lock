@@ -4030,6 +4030,53 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@linkwarden/react-native-render-html@workspace:*, @linkwarden/react-native-render-html@workspace:packages/render-html":
+  version: 0.0.0-use.local
+  resolution: "@linkwarden/react-native-render-html@workspace:packages/render-html"
+  dependencies:
+    "@babel/cli": ^7.13.16
+    "@babel/core": ^7.13.16
+    "@babel/plugin-transform-react-jsx": ^7.13.12
+    "@babel/preset-react": ^7.13.13
+    "@babel/preset-typescript": ^7.13.0
+    "@babel/runtime": ^7.13.17
+    "@jsamr/counter-style": ^2.0.1
+    "@jsamr/react-native-li": ^2.3.0
+    "@microsoft/api-extractor": ^7.14.0
+    "@native-html/transient-render-engine": 11.2.3
+    "@release-it/conventional-changelog": ^2.0.1
+    "@testing-library/jest-native": ^4.0.2
+    "@testing-library/react-hooks": ^7.0.0
+    "@testing-library/react-native": ^7.2.0
+    "@types/jest": ^26.0.23
+    "@types/ramda": ^0.27.40
+    "@types/react-native": ^0.64.4
+    "@types/react-test-renderer": ^17.0.1
+    "@types/urijs": ^1.19.15
+    babel-jest: ^27.0.2
+    eslint: ^7.29.0
+    htmlparser2: ^7.1.2
+    jest: ^27.0.4
+    metro-react-native-babel-preset: ^0.66.0
+    prettier: ^2.3.1
+    prop-types: ^15.5.7
+    ramda: ^0.27.2
+    react: 17.0.2
+    react-native: ^0.64.0
+    react-native-accessibility-engine: ^0.4.1
+    react-native-builder-bob: ^0.18.1
+    react-performance-testing: ^1.2.3
+    react-test-renderer: ^17.0.2
+    release-it: 14.11.0-next.1
+    stringify-entities: ^3.1.0
+    typescript: 4.2.2
+    urijs: ^1.19.9
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  languageName: unknown
+  linkType: soft
+
 "@mdn/browser-compat-data@npm:^2.0.7":
   version: 2.0.7
   resolution: "@mdn/browser-compat-data@npm:2.0.7"
@@ -7127,6 +7174,7 @@ __metadata:
   resolution: "benchmarking@workspace:apps/benchmarking"
   dependencies:
     "@babel/core": ^7.12.9
+    "@linkwarden/react-native-render-html": "workspace:*"
     expo: ^43.0.0
     expo-keep-awake: ~10.0.0
     expo-status-bar: ~1.1.0
@@ -7134,7 +7182,6 @@ __metadata:
     react: 17.0.1
     react-dom: 17.0.1
     react-native: 0.64.2
-    react-native-render-html: "workspace:*"
     react-native-render-html-v5: "npm:react-native-render-html@^5.0.0"
     react-native-safe-area-context: 3.3.2
     react-native-web: 0.17.1
@@ -9588,6 +9635,7 @@ __metadata:
     "@expo/vector-icons": ^12.0.0
     "@gorhom/bottom-sheet": ^3.6.4
     "@jsamr/react-native-li": ^2.3.0
+    "@linkwarden/react-native-render-html": "workspace:*"
     "@mobily/stacks": ^1.1.3
     "@react-native-community/masked-view": 0.1.10
     "@react-native-community/slider": 4.1.7
@@ -9625,7 +9673,6 @@ __metadata:
     react-native-pager-view: 5.4.6
     react-native-paper: ^4.8.1
     react-native-reanimated: ~2.2.0
-    react-native-render-html: "workspace:*"
     react-native-safe-area-context: 3.3.2
     react-native-screens: ~3.8.0
     react-native-svg: 12.1.1
@@ -19527,53 +19574,6 @@ fsevents@^1.2.7:
   checksum: 34a266463cf65f67c2d907a4e4896d5aff62e2268a0cae2e3ad7bb72e518a57ca8ec5aa6fee5a5a052beedfb0c1824f490720390c715a28684328334df2ec3ed
   languageName: node
   linkType: hard
-
-"react-native-render-html@workspace:*, react-native-render-html@workspace:packages/render-html":
-  version: 0.0.0-use.local
-  resolution: "react-native-render-html@workspace:packages/render-html"
-  dependencies:
-    "@babel/cli": ^7.13.16
-    "@babel/core": ^7.13.16
-    "@babel/plugin-transform-react-jsx": ^7.13.12
-    "@babel/preset-react": ^7.13.13
-    "@babel/preset-typescript": ^7.13.0
-    "@babel/runtime": ^7.13.17
-    "@jsamr/counter-style": ^2.0.1
-    "@jsamr/react-native-li": ^2.3.0
-    "@microsoft/api-extractor": ^7.14.0
-    "@native-html/transient-render-engine": 11.2.3
-    "@release-it/conventional-changelog": ^2.0.1
-    "@testing-library/jest-native": ^4.0.2
-    "@testing-library/react-hooks": ^7.0.0
-    "@testing-library/react-native": ^7.2.0
-    "@types/jest": ^26.0.23
-    "@types/ramda": ^0.27.40
-    "@types/react-native": ^0.64.4
-    "@types/react-test-renderer": ^17.0.1
-    "@types/urijs": ^1.19.15
-    babel-jest: ^27.0.2
-    eslint: ^7.29.0
-    htmlparser2: ^7.1.2
-    jest: ^27.0.4
-    metro-react-native-babel-preset: ^0.66.0
-    prettier: ^2.3.1
-    prop-types: ^15.5.7
-    ramda: ^0.27.2
-    react: 17.0.2
-    react-native: ^0.64.0
-    react-native-accessibility-engine: ^0.4.1
-    react-native-builder-bob: ^0.18.1
-    react-performance-testing: ^1.2.3
-    react-test-renderer: ^17.0.2
-    release-it: 14.11.0-next.1
-    stringify-entities: ^3.1.0
-    typescript: 4.2.2
-    urijs: ^1.19.9
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  languageName: unknown
-  linkType: soft
 
 "react-native-safe-area-context@npm:3.3.2":
   version: 3.3.2

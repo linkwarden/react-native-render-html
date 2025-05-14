@@ -1,5 +1,5 @@
 {
-  "name": "react-native-render-html",
+  "name": "@linkwarden/react-native-render-html",
   "version": "6.3.4",
   "author": "Meliorence <contact@meliorence.com> (github.com/meliorence)",
   "license": "BSD-2-Clause",
@@ -36,7 +36,7 @@
     "build": "bob build",
     "build:defs": "api-extractor run --local --verbose",
     "prepack": "yarn run prepack:readme && yarn run build",
-    "prepack:readme": "./scripts/prepack.sh"
+    "prepack:readme": "sed -i '' 's/…/…/' README.md"
   },
   "devDependencies": {
     "@babel/cli": "^7.13.16",
